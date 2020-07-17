@@ -10,6 +10,7 @@ myorder = "I want {} dresses with dresscode {} for {} dollars."
 print(myorder.format(dresses, dresscode, price))
 # using index numbers
 dresses = 3
+
 dresscode = 999
 price = 60.0
 myorder = "I want {0} dresses with dresscode {1} for {2} dollars."

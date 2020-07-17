@@ -11,6 +11,7 @@ while i < 6:
     break
   i += 1
   #continue statement
+#learning while loop
 i = 0
 while i < 6:
   i += 1
