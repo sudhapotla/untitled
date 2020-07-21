@@ -46,7 +46,7 @@ if is_hot:
 name= 'sudha'
 #Format eg
 course="(python)"
-week=5
+week =5
 participant=3
 message=("all {} participants meet {} times a week and practice")
 print("all {} participants meet {} times a week and practice {} everyday")
@@ -64,6 +64,17 @@ print("the location of d in sudha is",name.index("d"))
 %	Modulus	x % y
 **	Exponentiation	x ** y
 //	Floor division	x // y"""
+#differnce between index and find methods
+"""Sentence = Operator	Name	Example	Try it
++	Addition	x + y
+-	Subtraction	x - y
+*	Multiplication	x * y
+/	Division	x / y
+%	Modulus	x % y
+**	Exponentiation	x ** y
+//	Floor division	x // y """
+sentence="True friends are rare so treat them with care"
+print(sentence.index())
 
 
 
