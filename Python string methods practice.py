@@ -14,7 +14,7 @@ print(x)
 txt=" All the three friends are practicing string methods today."
 x=txt.endswith(".")
 print(x)
-txt= "A\l\l"
+txt= "A\tl\tl"
 x=txt.expandtabs(2)
 print(x)
 text= " All the three friends are practicing string methods today."
@@ -24,8 +24,29 @@ age=45
 txt=" All the three friends are practicing python  and not any language and they are{}"
 x=txt.format( age)
 print(x)
-txt= " All the three friends are practicing string methods today."
-x=txt.format_map("friends")
+#txt= " All the three friends are practicing string methods today."
+#x=txt.format_map("friends")
+#indexing
+text= " All the three friends are practicing string methods today."
+x=txt.index("practicing")
 print(x)
+#isalnum
+text= " All the three friends are practicing string methods today."
+x=txt.isalnum()
+print(x)
+text= " All the three friends are practicing string methods today."
+x=txt.isalpha()
+print(x)
+#isdecimal
+text= " All the three friends are practicing string methods today."
+x=txt.isdecimal()
+print(x)
+#isdigit
+text=  "5000"
+x=txt.isdigit()
+print(x)
+
+
+
 
 
